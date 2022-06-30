@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+   <!--Para melhor entendimento irei comentando o código-->
+    <div class="slider">
+        <div class="slides">
+            <!--botões do slide -->
+            <input type="radio" name="botao" id="radio1">
+            <input type="radio" name="botao" id="radio2">
+            <input type="radio" name="botao" id="radio3">
+            <input type="radio" name="botao" id="radio4">
+            
+            <!--imagens -->
+            <div class="slide first">
+                <img src="https://cdn.pixabay.com/photo/2022/06/23/09/46/mountain-7279430__480.jpg" alt="imagem1">
+            </div>
+            <div class="slide">
+                <img src="https://cdn.pixabay.com/photo/2022/03/01/00/12/tree-7040298__340.jpg" alt="imagem2">
+            </div>
+            <div class="slide">
+                <img src="https://cdn.pixabay.com/photo/2022/01/17/11/16/alpine-6944487__340.jpg" alt="imagem3">
+            </div>
+            <div class="slide">
+                <img src="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg" alt="imagem4">
+            </div>
+
+            <!--Navegador-->
+            <div class="navegador">
+                <div class="btn1"></div>
+                <div class="btn2"></div>
+                <div class="btn3"></div>
+                <div class="btn4"></div>
+            </div>
+        </div>
+
+        <!--lables dos botoes, referenciados aos inputs de radio-->
+        <div class="nav-manu">
+            <label for="radio1" class="btn-manual"></label>
+            <label for="radio2" class="btn-manual"></label>
+            <label for="radio3" class="btn-manual"></label>
+            <label for="radio4" class="btn-manual"></label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
