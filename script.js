@@ -12,4 +12,4 @@ function nextImage(){
     }
 }
 
-document.getElementById("radio"+cont).checked = true;
+document.getElementById("radio"+String(cont)).checked = true;
