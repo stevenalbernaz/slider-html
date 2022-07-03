@@ -10,6 +10,8 @@ function nextImage(){
     if(cont>4){
         cont = 1;
     }
+
+    document.getElementById("radio"+cont).checked = true;
+
 }
 
-document.getElementById("radio"+String(cont)).checked = true;
